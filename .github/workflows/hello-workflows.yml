@@ -1,0 +1,11 @@
+name: Hello Workflows
+
+on:
+  push:
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello Workflows
+        run: echo "Hello Workflows"
